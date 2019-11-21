@@ -5,35 +5,107 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/ea02d265ca.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles/styles.css">
     <title>Document</title>
 </head>
 <body>
-    <div>
-        aca navbar
-    </div>
+    <div class="container"><br>
+        <h2>Facebook para empresas</h2>
+        <ul class="nav nav-pills">
+            <li class="nav-item">
+                <a class="nav-link active" href="#">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Marketing</a>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="#">Instagram</a>
+                      <a class="dropdown-item" href="#">Facebook</a>
+                      <a class="dropdown-item" href="#">Whatsapp</a>
+                    </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Testimonio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contacto</a>
+            </li>
+        </ul>
+    </div><br>
 
-    <div>
+    <div class="container-fluid">
         <div class="row">
-            <div class="col" style="background-color: red">texto 1</div>
-            <div class="col" style="background-color: yellow">imagen 1</div>
+            <div class="col" style="background-color: red">
+                <p> Marketing en Instagram
+                    Cuenta la historia de tu marca a tu manera.
+                    Las personas recurren a Instagram en busca de inspiración y con el objetivo de descubrir contenido que les resulte interesante, lo que incluye a marcas y empresas como la tuya.
+                </p>
+            </div>
+            <div class="col" style="background-color: yellow"><img src="img/instagram-marketing.jpg" style="width:100px"></div>
+        <div class="row">
+            <div class="col" style="background-color: yellow"><img src="img/facebook-business-marketing.jpg" style="width:100px"></div>
+            <div class="col" style="background-color: red">
+            <p> Marketing en Facebook
+                Haz crecer tu empresa estés donde estés.
+                Haz crecer tu empresa gracias a herramientas empresariales gratuitas, estadísticas y una comunidad internacional de más de 2.400 millones de personas.
+            </p>
+        </div>
         </div>
         <div class="row">
-            <div class="col" style="background-color: yellow">imagen 2</div>
-            <div class="col" style="background-color: red">texto 2</div>
-        </div>
-        <div class="row">
-            <div class="col" style="background-color: red">texto 3</div>
-            <div class="col" style="background-color: yellow">imagen 3</div>
+            <div class="col" style="background-color: red">
+                <p> Marketing con WhatsApp
+                    Mantente en contacto con los clientes en todas partes.
+                    A las empresas les encanta WhatsApp por la misma razón que les encanta a las personas: es una herramienta sencilla y de confianza que permite conectarse con cualquier persona, esté donde esté. Construye la presencia de tu empresa, envía información a las personas y responde a tus clientes desde la misma app que a ellos les encanta usar.
+                </p>
+            </div>
+            <div class="col" style="background-color: yellow"><img src="img/whatsapp-marketting.jpg" style="width:100px"></div>
         </div>
     </div> 
 
-    <div>
-        carousel
-    </div>
+    <div id="demo" class="carousel slide" data-ride="carousel">
 
-    <div>
-        footer
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+          <li data-target="#demo" data-slide-to="0" class="active"></li>
+          <li data-target="#demo" data-slide-to="1"></li>
+          <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+      
+        <!-- The slideshow -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/nespresso.jpg" alt="Los Angeles">
+          </div>
+          <div class="carousel-item">
+            <img src="img/cocacola.jpg" alt="Chicago">
+          </div>
+          <div class="carousel-item">
+            <img src="img/santander.jpg" alt="New York">
+          </div>
+        </div>
+      
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      
+      </div>
+
+        <footer>
+            <p>© 2019 — Faceebok</p>
+            <div class="mx-auto" style="width: 10%;">
+                <ul></ul>
+               <li></  href="http://www.facebook.com"><i class="fab fa-facebook"></i></a</li>>
+                   <li></li>><a="http://www.instagram.com"><i class="fab fa-instagram"></i></a</li>>
+                   <li></li>><a="http://web.whatsapp.com"ass="fab fa-whatsapp"></i></a></li></li>
+                </ul>
+        </footer>
     </div>
 </body>
 </html>
